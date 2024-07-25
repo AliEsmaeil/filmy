@@ -17,7 +17,4 @@ class Constants {
   static const String imagesMovies = 'images?'; // precede it by movie id and movie endpoint as above
  // here's image call : https://image.tmdb.org/t/p/w500/(lol7pTLCvfrRIxjrPdDZ0iQq1Fl.jpg)
 
-//https://ivory-desdemona-13.tiiny.site
-// assignment : https://docs.google.com/forms/d/e/1FAIpQLSdUNCvBBlE_qO9OXUjBl3DNsN1oIQVrAGTUDcEOWVaZJS_w-g/viewform?usp=sf_link
-
 }
