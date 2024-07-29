@@ -1,3 +1,5 @@
+import 'package:dartz/dartz.dart';
+import 'package:filmy/core/utils/failure/failures.dart';
 import 'package:filmy/movie/domain/entities/movie.dart';
 import 'package:filmy/movie/domain/repositories/base_movie_repo.dart';
 
@@ -7,7 +9,7 @@ final class UpcomingMoviesUseCase{
 
   const UpcomingMoviesUseCase({required BaseMovieRepository movieRepository}) : _movieRepository = movieRepository;
 
-  Future<List<Movie>> getUpcomingMovie()async{
+  Future<Either<Failure, List<Movie>>> getUpcomingMovie()async{
     return await _movieRepository.getUpcoming();
   }
 }

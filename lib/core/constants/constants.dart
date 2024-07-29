@@ -7,6 +7,7 @@ class Constants {
 
   static const String baseUrl = 'https://api.themoviedb.org/3/';
   static final String apiKey = Config.apiKey;
+  static final String accessToken = Config.accessToken;
 
   // endpoints
   static const String nowPlayingMovies = 'movie/now_playing?';
@@ -18,6 +19,5 @@ class Constants {
  // here's image call : https://image.tmdb.org/t/p/w500/(lol7pTLCvfrRIxjrPdDZ0iQq1Fl.jpg)
 
 //https://ivory-desdemona-13.tiiny.site
-// assignment : https://docs.google.com/forms/d/e/1FAIpQLSdUNCvBBlE_qO9OXUjBl3DNsN1oIQVrAGTUDcEOWVaZJS_w-g/viewform?usp=sf_link
 
 }
