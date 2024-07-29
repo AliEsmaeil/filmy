@@ -1,6 +1,7 @@
 # Miscellaneous
 *.env
-_Config.g.dart
+lib/core/constants/environment_vars/config.g.dart
+clear
 *.class
 *.log
 *.pyc
